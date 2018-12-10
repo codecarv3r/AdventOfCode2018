@@ -15,6 +15,7 @@
 		1E0C065D21BECCF30082E061 /* day03.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1E0C065A21BECCF30082E061 /* day03.txt */; };
 		1E0C066121BED7FD0082E061 /* Day01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0C066021BED7FD0082E061 /* Day01.swift */; };
 		1EE61C9C21BEEAA30061F2A4 /* PuzzleStarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE61C9B21BEEAA30061F2A4 /* PuzzleStarTests.swift */; };
+		1EE61C9E21BEF0620061F2A4 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE61C9D21BEF0620061F2A4 /* Day02.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		1E0C065A21BECCF30082E061 /* day03.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day03.txt; sourceTree = "<group>"; };
 		1E0C066021BED7FD0082E061 /* Day01.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day01.swift; sourceTree = "<group>"; };
 		1EE61C9B21BEEAA30061F2A4 /* PuzzleStarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleStarTests.swift; sourceTree = "<group>"; };
+		1EE61C9D21BEF0620061F2A4 /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				1E0C063F21BEC8630082E061 /* Info.plist */,
 				1E0C065521BEC8870082E061 /* AdventOfCode2018.swift */,
 				1E0C066021BED7FD0082E061 /* Day01.swift */,
+				1EE61C9D21BEF0620061F2A4 /* Day02.swift */,
 			);
 			path = AdventOfCode2018;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				1E0C066121BED7FD0082E061 /* Day01.swift in Sources */,
 				1E0C065621BEC8870082E061 /* AdventOfCode2018.swift in Sources */,
+				1EE61C9E21BEF0620061F2A4 /* Day02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

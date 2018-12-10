@@ -19,10 +19,42 @@
 //
 
 import XCTest
-import AdventOfCode2018
+@testable import AdventOfCode2018
 
 class PuzzleStarTests: XCTestCase {
 	func testStar01() {
-		print("Star 01: \(Day01(input: AdventOfCode2018.defaultInput).solution1)")
+		self.measure {
+			print("Star 01: \(Day01(input: AdventOfCode2018.defaultInput).solution1)")
+		}
+	}
+	
+	func testStar02() {
+		self.measure {
+			print("Star 02: \(Day01(input: AdventOfCode2018.defaultInput).solution2)")
+		}
+	}
+	
+	func testStar03() {
+		self.measure {
+			print("Star 03: \(Day02(input: AdventOfCode2018.defaultInput).solution1)")
+		}
+	}
+	
+	func testStar04() {
+		self.measure {
+			print("Star 04: \(Day02(input: AdventOfCode2018.defaultInput).solution2)")
+		}
+	}
+	
+	func testStar04_method1() {
+		self.measure {
+			print("Star 04 Method 1: \(Day02(input: AdventOfCode2018.defaultInput).solution2method1)")
+		}
+	}
+	
+	func testStar04_method2() {
+		self.measure {
+			print("Star 04 Method 2: \(Day02(input: AdventOfCode2018.defaultInput).solution2method2)")
+		}
 	}
 }

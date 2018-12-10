@@ -46,6 +46,10 @@ public class AdventOfCode2018 {
 	}
 	
 	public func inputRows(day: Int) -> [String] {
-		return inputString(day: day).components(separatedBy: "\n")
+		var rows = inputString(day: day).components(separatedBy: "\n")
+		if rows.last!.isEmpty {
+			rows.removeLast()
+		}
+		return rows
 	}
 }

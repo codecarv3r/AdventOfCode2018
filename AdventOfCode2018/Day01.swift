@@ -39,4 +39,22 @@ public class Day01 {
 	public var solution1: Int {
 		return frequency(moves: input.inputRows(day: Day01.day))
 	}
+	
+	public var solution2: Int {
+		let moves = input.inputRows(day: Day01.day).map { (move: String) -> Int in
+			return Int(move)!
+		}
+		var frequency = 0
+		var seenFrequencies = Set<Int>()
+		var index = 0
+		repeat {
+			seenFrequencies.insert(frequency)
+			if index == moves.indices.upperBound {
+				index -= moves.count
+			}
+			frequency += moves[index]
+			index += 1
+		} while !seenFrequencies.contains(frequency)
+		return frequency
+	}
 }
