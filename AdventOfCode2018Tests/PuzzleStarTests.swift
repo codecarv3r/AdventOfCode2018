@@ -1,6 +1,6 @@
 //
-//  Star.swift
-//  AdventOfCode2018
+//  PuzzleStarTests.swift
+//  AdventOfCode2018Tests
 //
 //  Created by Silas Schwarz on 12/10/18.
 //  Copyright 2018 Silas Schwarz
@@ -18,8 +18,11 @@
 //  limitations under the License.
 //
 
-import Foundation
+import XCTest
+import AdventOfCode2018
 
-public protocol Star {
-	init(input: AdventOfCode2018)
+class PuzzleStarTests: XCTestCase {
+	func testStar01() {
+		print("Star 01: \(Day01(input: AdventOfCode2018.defaultInput).solution1)")
+	}
 }
