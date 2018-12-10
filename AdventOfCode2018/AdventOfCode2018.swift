@@ -19,3 +19,33 @@
 //
 
 import Foundation
+
+public class AdventOfCode2018 {
+	public static let defaultInput = AdventOfCode2018()
+	
+	let source: URL
+	
+	internal init() {
+		self.source = Bundle(for: AdventOfCode2018.self).resourceURL!
+	}
+	
+	public init(source: URL) {
+		self.source = source
+	}
+	
+	func urlFor(day: Int) -> URL {
+		return source.appendingPathComponent("day\(String(format: "%02d", day)).txt")
+	}
+	
+	public func inputData(day: Int) -> Data {
+		return try! Data(contentsOf: urlFor(day: day))
+	}
+	
+	public func inputString(day: Int) -> String {
+		return try! String(contentsOf: urlFor(day: day))
+	}
+	
+	public func inputRows(day: Int) -> [String] {
+		return inputString(day: day).components(separatedBy: "\n")
+	}
+}
