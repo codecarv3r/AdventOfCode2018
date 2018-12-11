@@ -81,4 +81,16 @@ class PuzzleStarTests: XCTestCase {
 			print("Star 08: \(Day04(input: AdventOfCode2018.defaultInput).solution2)")
 		}
 	}
+	
+	func testStar09() {
+		self.measure {
+			print("Star 09: \(Day05(input: AdventOfCode2018.defaultInput).solution1)")
+		}
+	}
+	
+	func testStar10() {
+		self.measure {
+			print("Star 10: \(Day05(input: AdventOfCode2018.defaultInput).solution2)")
+		}
+	}
 }
