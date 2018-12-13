@@ -42,7 +42,11 @@ public class AdventOfCode2018 {
 	}
 	
 	public func inputString(day: Int) -> String {
-		return try! String(contentsOf: urlFor(day: day))
+		var string = try! String(contentsOf: urlFor(day: day))
+		if string.last! == Character("\n") {
+			string.removeLast()
+		}
+		return string
 	}
 	
 	public func inputRows(day: Int) -> [String] {

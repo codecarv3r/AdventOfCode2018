@@ -119,4 +119,32 @@ class PuzzleStarTests: XCTestCase {
 			print("Star 14: \(Day07(input: AdventOfCode2018.defaultInput).solution2)")
 		}
 	}
+	
+	func testStar15() {
+//		let input = AdventOfCode2018(source: FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent("Desktop"))
+//		print("Star 15: \(Day08(input: input).solution1)")
+		self.measure {
+			print("Star 15: \(Day08(input: AdventOfCode2018.defaultInput).solution1)")
+		}
+	}
+	
+	func testStar16() {
+		self.measure {
+			print("Star 16: \(Day08(input: AdventOfCode2018.defaultInput).solution2)")
+		}
+	}
+	
+	func testStar17() {
+		//		let input = AdventOfCode2018(source: FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent("Desktop"))
+		//		print("Star 15: \(Day08(input: input).solution1)")
+		self.measure {
+			print("Star 15: \(Day09(input: AdventOfCode2018.defaultInput).solution1)")
+		}
+	}
+	
+	func testStar18() {
+		self.measure {
+			print("Star 16: \(Day09(input: AdventOfCode2018.defaultInput).solution2)")
+		}
+	}
 }

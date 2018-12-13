@@ -37,11 +37,11 @@ public class Day01 {
 	}
 	
 	public var solution1: Int {
-		return frequency(moves: input.inputRows(day: Day01.day))
+		return frequency(moves: input.inputRows(day: type(of: self).day))
 	}
 	
 	public var solution2: Int {
-		let moves = input.inputRows(day: Day01.day).map { (move: String) -> Int in
+		let moves = input.inputRows(day: type(of: self).day).map { (move: String) -> Int in
 			return Int(move)!
 		}
 		var frequency = 0
