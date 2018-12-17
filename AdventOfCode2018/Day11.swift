@@ -21,16 +21,70 @@
 public class Day11 {
 	public static let day = 11
 	
-	let input: AdventOfCode2018
-	public required init(input: AdventOfCode2018) {
-		self.input = input
+	var serial = 8979
+	
+	public required init() {
 	}
 	
-	public var solution1: Int {
-		return 0
+	public var solution1: String {
+		var levels = [[Int]](repeating: [Int](repeating: 0, count: 300), count: 300)
+		for x in 1...300 {
+			for y in 1...300 {
+				let preLevel = ((x + 10) * y + serial) * (x + 10)
+				levels[x-1][y-1] = Int(String(String(format: "%03d", preLevel % 1000).first!))! - 5
+			}
+		}
+		var maxX = 0
+		var maxY = 0
+		var maxTotal = 0
+		for x in 1...298 {
+			for y in 1...298 {
+				var total = 0
+				for i in 0..<3 {
+					for j in 0..<3 {
+						total += levels[x-1 + i][y-1 + j]
+					}
+				}
+				if total > maxTotal {
+					maxX = x
+					maxY = y
+					maxTotal = total
+				}
+			}
+		}
+		return "(\(maxX), \(maxY))"
 	}
 	
-	public var solution2: Int {
-		return 0
+	public var solution2: String {
+		var levels = [[Int]](repeating: [Int](repeating: 0, count: 300), count: 300)
+		for x in 1...300 {
+			for y in 1...300 {
+				let preLevel = ((x + 10) * y + serial) * (x + 10)
+				levels[x-1][y-1] = Int(String(String(format: "%03d", preLevel % 1000).first!))! - 5
+			}
+		}
+		var maxX = 0
+		var maxY = 0
+		var maxTotal = 0
+		var maxSize = 0
+		for size in 1...300 {
+			for x in 1...300 - (size - 1) {
+				for y in 1...300 - (size - 1) {
+					var total = 0
+					for i in 0 ..< size {
+						for j in 0 ..< size {
+							total += levels[x-1 + i][y-1 + j]
+						}
+					}
+					if total > maxTotal {
+						maxX = x
+						maxY = y
+						maxTotal = total
+						maxSize = size
+					}
+				}
+			}
+		}
+		return "(\(maxX), \(maxY), \(maxSize))"
 	}
 }

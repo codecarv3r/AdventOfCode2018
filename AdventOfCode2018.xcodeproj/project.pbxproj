@@ -29,6 +29,7 @@
 		1EB4AC5921C5609F004A6AB4 /* day10.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EB4AC5821C5609F004A6AB4 /* day10.txt */; };
 		1EB4AC5B21C560B2004A6AB4 /* Day10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4AC5A21C560B2004A6AB4 /* Day10.swift */; };
 		1EB4AC5D21C58AE4004A6AB4 /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4AC5C21C58AE4004A6AB4 /* Day11.swift */; };
+		1EB4AC5F21C599E3004A6AB4 /* day12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EB4AC5E21C599E3004A6AB4 /* day12.txt */; };
 		1EC57DEF21C2BEA200740F0B /* day09.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EC57DEE21C2BEA200740F0B /* day09.txt */; };
 		1EE61C9C21BEEAA30061F2A4 /* PuzzleStarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE61C9B21BEEAA30061F2A4 /* PuzzleStarTests.swift */; };
 		1EE61C9E21BEF0620061F2A4 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE61C9D21BEF0620061F2A4 /* Day02.swift */; };
@@ -70,6 +71,7 @@
 		1EB4AC5821C5609F004A6AB4 /* day10.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day10.txt; sourceTree = "<group>"; };
 		1EB4AC5A21C560B2004A6AB4 /* Day10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day10.swift; sourceTree = "<group>"; };
 		1EB4AC5C21C58AE4004A6AB4 /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
+		1EB4AC5E21C599E3004A6AB4 /* day12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day12.txt; sourceTree = "<group>"; };
 		1EC57DEE21C2BEA200740F0B /* day09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day09.txt; sourceTree = "<group>"; };
 		1EE61C9B21BEEAA30061F2A4 /* PuzzleStarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleStarTests.swift; sourceTree = "<group>"; };
 		1EE61C9D21BEF0620061F2A4 /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				1E8534DA21C2A19500127DF1 /* day08.txt */,
 				1EC57DEE21C2BEA200740F0B /* day09.txt */,
 				1EB4AC5821C5609F004A6AB4 /* day10.txt */,
+				1EB4AC5E21C599E3004A6AB4 /* day12.txt */,
 			);
 			path = PuzzleInput;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				1E0C065C21BECCF30082E061 /* day01.txt in Resources */,
 				1E4E640521C0407B00EE6ED5 /* day06.txt in Resources */,
+				1EB4AC5F21C599E3004A6AB4 /* day12.txt in Resources */,
 				1E99030521BF2D150065B7DD /* day04.txt in Resources */,
 				1E0C065D21BECCF30082E061 /* day03.txt in Resources */,
 				1E4E63FE21C031F100EE6ED5 /* day05.txt in Resources */,

@@ -159,4 +159,22 @@ class PuzzleStarTests: XCTestCase {
 			print("Star 20: \(Day10(input: AdventOfCode2018.defaultInput).solution2)")
 		}
 	}
+	
+	func printHundred(number: Int) {
+		var level = Int(String(String(format: "%03d", number % 1000).first!))!
+		level -= 5
+		print(level)
+	}
+	
+	func testStar21() {
+		self.measure {
+			print("Star 21: \(Day11().solution1)")
+		}
+	}
+	
+	func testStar22() {
+		self.measure {
+			print("Star 22: \(Day11().solution2)")
+		}
+	}
 }
