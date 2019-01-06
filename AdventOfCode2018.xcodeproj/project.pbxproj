@@ -31,6 +31,7 @@
 		1EB4AC5D21C58AE4004A6AB4 /* Day11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EB4AC5C21C58AE4004A6AB4 /* Day11.swift */; };
 		1EB4AC5F21C599E3004A6AB4 /* day12.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EB4AC5E21C599E3004A6AB4 /* day12.txt */; };
 		1EC57DEF21C2BEA200740F0B /* day09.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1EC57DEE21C2BEA200740F0B /* day09.txt */; };
+		1EDA479A21C85E4F0082F147 /* Day12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA479921C85E4F0082F147 /* Day12.swift */; };
 		1EE61C9C21BEEAA30061F2A4 /* PuzzleStarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE61C9B21BEEAA30061F2A4 /* PuzzleStarTests.swift */; };
 		1EE61C9E21BEF0620061F2A4 /* Day02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE61C9D21BEF0620061F2A4 /* Day02.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 		1EB4AC5C21C58AE4004A6AB4 /* Day11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day11.swift; sourceTree = "<group>"; };
 		1EB4AC5E21C599E3004A6AB4 /* day12.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day12.txt; sourceTree = "<group>"; };
 		1EC57DEE21C2BEA200740F0B /* day09.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = day09.txt; sourceTree = "<group>"; };
+		1EDA479921C85E4F0082F147 /* Day12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day12.swift; sourceTree = "<group>"; };
 		1EE61C9B21BEEAA30061F2A4 /* PuzzleStarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleStarTests.swift; sourceTree = "<group>"; };
 		1EE61C9D21BEF0620061F2A4 /* Day02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day02.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -131,6 +133,7 @@
 				1E8534DE21C2BC7000127DF1 /* Day09.swift */,
 				1EB4AC5A21C560B2004A6AB4 /* Day10.swift */,
 				1EB4AC5C21C58AE4004A6AB4 /* Day11.swift */,
+				1EDA479921C85E4F0082F147 /* Day12.swift */,
 			);
 			path = AdventOfCode2018;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				1E8534DD21C2A1A600127DF1 /* Day08.swift in Sources */,
 				1E99030121BF195F0065B7DD /* Day03.swift in Sources */,
 				1EB4AC5B21C560B2004A6AB4 /* Day10.swift in Sources */,
+				1EDA479A21C85E4F0082F147 /* Day12.swift in Sources */,
 				1E99030321BF2AAB0065B7DD /* Day04.swift in Sources */,
 				1E4E640021C0320400EE6ED5 /* Day05.swift in Sources */,
 				1E8534DF21C2BC7000127DF1 /* Day09.swift in Sources */,

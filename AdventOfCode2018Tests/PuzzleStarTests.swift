@@ -177,4 +177,33 @@ class PuzzleStarTests: XCTestCase {
 			print("Star 22: \(Day11().solution2)")
 		}
 	}
+	
+	func testStar23() {
+//		let day12 = Day12(input: AdventOfCode2018.defaultInput)
+//		for A in [false, true] {
+//			for B in [false, true] {
+//				for C in [false, true] {
+//					for D in [false, true] {
+//						for E in [false, true] {
+//							let newPlant = day12.plantBehavior(A: A, B: B, C: C, D: D, E: E)
+//							if newPlant {
+//								print("1")
+//							} else {
+//								print("0")
+//							}
+//						}
+//					}
+//				}
+//			}
+//		}
+		self.measure {
+			print("Star 23: \(Day12(input: AdventOfCode2018.defaultInput).solution1)")
+		}
+	}
+	
+	func testStar24() {
+		self.measure {
+			print("Star 24: \(Day12(input: AdventOfCode2018.defaultInput).solution2)")
+		}
+	}
 }
